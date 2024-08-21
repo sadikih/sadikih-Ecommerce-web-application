@@ -1,0 +1,66 @@
+
+#headpart{
+	background-color:darkgreen;
+	min-height:50px;
+	padding:2px;
+}
+#headpart .complogo{
+	width:100px;
+}
+#headpart .compname{
+	color:white;
+	margin-top:5px;
+}
+#headpart .compsocialicon{
+	margin-top: 25px;
+}
+#headpart .compsocialicon li a{
+	width:35px;
+	padding:5px;
+	text-align:center;
+	display:block;
+	background-color:white;
+}
+
+/* === main menu ===== */
+#main_menu.navbar {
+	margin-bottom:0px;
+	margin-top:2px;
+}
+
+
+/* ==== Main Slider ===== */
+
+#main_slider img{
+	width:100%;
+	min-height:250px;
+	max-height:450px;
+}
+#main_slider .carousel-control{
+	width:5%;
+	opacity:0;
+}
+#main_slider:hover .carousel-control{
+	opacity:1;
+}
+
+
+/* ==== Responsive View ===== */
+
+@media (max-width:450px){
+	#headpart .compname h1{
+	font-size:30px;
+	text-align:center;
+}
+}
+
+
+/* ============ my Works ========== */
+#my_details, #works{
+	padding-top:25px;
+	padding-bottom:30px;
+}
+
+
+
+
